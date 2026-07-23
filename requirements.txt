@@ -1,0 +1,6 @@
+presidio-analyzer
+presidio-anonymizer
+spacy
+python-docx
+faker
+PyMuPDF
