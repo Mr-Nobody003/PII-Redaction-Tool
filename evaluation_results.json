@@ -1,0 +1,245 @@
+{
+  "document_sample": {
+    "by_type": {
+      "PERSON": {
+        "tp": 22,
+        "fp": 0,
+        "fn": 0
+      },
+      "PHONE_NUMBER": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "EMAIL": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "COMPANY": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 3
+      },
+      "ADDRESS": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 2
+      }
+    },
+    "summary": {
+      "tp": 66,
+      "fp": 0,
+      "fn": 5,
+      "precision": 1.0,
+      "recall": 0.9295774647887324,
+      "f1": 0.9635036496350364,
+      "accuracy": 0.9295774647887324
+    },
+    "per_case": [
+      {
+        "scope": "cover_page.contact_block",
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "cover_page.promoters",
+        "tp": 12,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Kushal Subbayya Hegde",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Rajesh Kushal Hegde",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Rohit Kushal Hegde",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Rakhi Girija Shetty",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Dinesh Hirachand Munot",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Ajay Shriram Patil",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Ram Kumar Tiwari",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "board_of_directors.Indu Jacob",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "bankers.Citibank N.A.",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "scope": "bankers.Export-Import Bank of India",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "scope": "bankers.IndusInd Bank Limited",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "bankers.ICICI Bank Limited",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "bankers.HDFC Bank Limited",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "bankers.State Bank of India, Industrial Finance Branch",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "scope": "bankers.The Federal Bank Limited",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1
+      },
+      {
+        "scope": "bankers.Bajaj Finance Limited",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1
+      }
+    ]
+  },
+  "synthetic_set": {
+    "by_type": {
+      "SSN": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "CREDIT_CARD": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "IP_ADDRESS": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      "DATE_OF_BIRTH": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "summary": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "per_case": [
+      {
+        "scope": "synthetic.ssn_1",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.ssn_2",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.cc_1",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.cc_2",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.cc_false_positive",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.ip_1",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.ip_2",
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.dob_1",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.dob_2",
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      {
+        "scope": "synthetic.dob_false_positive",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    ]
+  }
+}
